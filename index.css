@@ -40,7 +40,35 @@ h1, h2, h3 {
 }
 
 .logo {
-    font-family: var(--fonte-cartaz);
+    font-family: var(--fonte-cartaz); 
+    font-size: 34px;
+    font-weight: 900;
+    text-decoration: none;
+} 
+
+.topo {
+    padding-block: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
- 
+.menu {
+    display: flex;
+    gap: 36px;
+}
+
+.menu a {
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 4px solid transparent;
+}
+
+.menu a:hover {
+    border-bottom-color: tinta;
+}
+
+.menu a.atual {
+    border-bottom-color: fita;
+}
