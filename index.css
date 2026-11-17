@@ -241,3 +241,16 @@ h1, h2, h3 {
     color: var(--fita);
     margin-bottom: 12px;
 }
+
+/* Responsividade */
+@media (max-width: 800px) {
+    .cartazes,
+    .passos,
+    .rodape-colunas {
+        flex-direction: column;
+    }
+
+    .cartaz-principal h1 {
+        font-size: 84px;
+    }
+}
