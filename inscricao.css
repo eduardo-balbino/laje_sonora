@@ -1,4 +1,3 @@
-
 /* Reset */
 * {
     margin: 0;
@@ -195,4 +194,60 @@ h1, h2, h3 {
     font-size: 28px;
     color: var(--fita);
     margin-bottom: 12px;
+}
+
+
+/* Labels e legendas */
+.formulario label,
+.formulario legend {
+    font-weight: 700;
+}
+
+/* Fieldset */
+.formulario fieldset {
+    border: none;
+}
+
+/* Campos de digitação */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="date"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid var(--tinta);
+    background-color: var(--concreto);
+    font-family: var(--fonte-texto);
+    font-size: 17px;
+    color: var(--tinta);
+}
+
+/* Foco dos campos */
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    outline: 3px solid var(--caixa-dagua);
+    outline-offset: 2px;
+    background-color: var(--branco);
+}
+
+/* Textarea */
+.formulario textarea {
+    height: 140px;
+    resize: vertical;
+}
+
+/* Labels das opções */
+.formulario .opcao label {
+    font-weight: 500;
+}
+
+/* Radio e checkbox */
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--caixa-dagua);
 }
